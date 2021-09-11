@@ -1,0 +1,105 @@
+body{
+  background-image: url(background.jpg);
+  background-size: 1450px
+}
+
+.bordonero{
+  background: rgba(0, 0, 0, 0.5);
+  background-attachment: scroll;
+  border-radius: 50px;
+  margin: auto;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 2%;
+  margin-bottom: 0%;
+  padding-bottom: 1.5px;
+}
+
+.contenitore {
+  width: 450px;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+img{
+  width: 180px;
+  margin-left: 30%;
+  margin-top: 15%;
+}
+
+div > h1 {
+  line-height: normal;
+  text-align: center;
+  font-family: font-family: 'Urbanist', sans-serif;
+  margin-top: 2%;
+  color: lawngreen;
+}
+
+div.intro{
+  text-align: center;
+  background-color: lawngreen;
+  width: 90%;
+  padding: 1%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.contenitore2{
+  margin-left: 40px
+}
+
+div > h2{
+  display: inline-block;
+  color: white;
+  font-size: 25px;
+  font-family: font-family: 'Urbanist', sans-serif;
+  padding-top: 20px;
+  margin: auto;
+  padding-bottom: 1px
+}
+
+div.argomenti{
+  color: white;
+  font-size: 20px;
+  font-family: font-family: 'Urbanist', sans-serif;
+  margin-top: 6px;
+  padding-top: 1px;
+}
+
+.freccia::before {
+  content:'\2910';
+}
+
+.riga1{
+  background-color: rgba(238,154,0, 2);
+  border-radius: 10px;
+  width: 50%;
+  line-height: 30px;
+  margin-left: 0;
+  margin-right: 70px;
+  border-top: 40px;
+}
+
+.riga2{
+  background-color: rgba(124,252,0, 2);
+  border-radius: 10px;
+  width: 70%;
+  line-height: 30px;
+  margin-left: 0;
+  margin-right: 70px;
+  border-top: 40px;
+}
+
+.riga3{
+  background-color: rgba(205,38,38, 2);
+  border-radius: 10px;
+  width: 30%;
+  line-height: 30px;
+  margin-left: 0;
+  margin-right: 70px;
+  border-top: 40px;
+  margin-bottom: 7%
+}
